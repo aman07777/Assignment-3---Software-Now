@@ -1,7 +1,7 @@
 import tkinter as tk  
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
-import cv2
+import cv2     
 import os
 from image_processor import ImageProcessor
 from gui_controls import ControlPanel, StatusBar
