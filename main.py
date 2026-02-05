@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tk  
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
 import cv2
@@ -9,7 +9,7 @@ from gui_controls import ControlPanel, StatusBar
 
 class ImageEditorGUI:
     """
-    Main application class for the Image Editor GUI.
+    Main application class for the Image Editor GUI.  
     Demonstrates OOP principles: Class Interaction, Encapsulation, Constructor, and Methods.
     """
 
@@ -21,8 +21,10 @@ class ImageEditorGUI:
             root: Root tkinter window
         """
         self.root = root
+        
         self.root.title("Image Editor Professional Image Processing Application")
         self.root.geometry("1400x900")
+        
         self.root.configure(bg='#1e1e2e')
         
         # Setup custom style
