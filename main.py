@@ -21,8 +21,10 @@ class ImageEditorGUI:
             root: Root tkinter window
         """
         self.root = root
+        
         self.root.title("Image Editor Professional Image Processing Application")
         self.root.geometry("1400x900")
+        
         self.root.configure(bg='#1e1e2e')
         
         # Setup custom style
